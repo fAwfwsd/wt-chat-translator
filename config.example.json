@@ -1,0 +1,44 @@
+{
+  "api_host": "127.0.0.1",
+  "api_port": 8111,
+  "poll_interval": 1.0,
+  "target_lang": "zh-CN",
+  "reply_lang": "en",
+  "providers": [
+    "google",
+    "youdao",
+    "mymemory"
+  ],
+  "llm": {
+    "enabled": true,
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "",
+    "model": "deepseek-flash"
+  },
+  "translate_chinese": false,
+  "glossary": true,
+  "cache_size": 800,
+  "font_size": 10,
+  "max_messages": 40,
+  "show_original": true,
+  "frameless": true,
+  "window": {
+    "x": 40,
+    "y": 420,
+    "w": 430,
+    "h": 320,
+    "bg_alpha": 0.86,
+    "text_alpha": 1.0
+  },
+  "hotkeys": {
+    "toggle": "F8",
+    "focus_input": "F9",
+    "clear": "F10"
+  },
+  "hotkey_mode": "register",
+  "auto_send_reply": true,
+  "send_mode": "paste",
+  "send_delay": 0.15,
+  "update_check": true,
+  "update_repo": "fAwfwsd/wt-chat-translator"
+}
