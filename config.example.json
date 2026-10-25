@@ -19,6 +19,7 @@
   "glossary": true,
   "cache_size": 800,
   "font_size": 10,
+  "text_opacity": 1.0,
   "max_messages": 40,
   "show_original": true,
   "frameless": true,
@@ -27,8 +28,7 @@
     "y": 420,
     "w": 430,
     "h": 320,
-    "bg_alpha": 0.86,
-    "text_alpha": 1.0
+    "bg_alpha": 0.86
   },
   "hotkeys": {
     "toggle": "F8",
